@@ -385,10 +385,17 @@ img {
 
 .pub-content {
   padding: clamp(22px, 3vw, 34px);
+  max-width: 920px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .authors {
   margin-bottom: 10px;
+}
+
+.pub-actions {
+  justify-content: center;
 }
 
 .action {
@@ -417,6 +424,7 @@ img {
   background: rgba(0, 0, 0, 0.22);
   font-size: 14px;
   line-height: 1.45;
+  text-align: left;
 }
 
 .bibtex.is-open {
