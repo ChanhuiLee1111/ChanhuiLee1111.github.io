@@ -166,7 +166,7 @@ img {
 .venue {
   margin-bottom: 10px;
   color: var(--accent);
-  font-size: 1.45rem;
+  font-size: 1.2rem;
   font-weight: 400;
   line-height: 1.15;
   letter-spacing: 0;
@@ -374,12 +374,18 @@ img {
   padding: 22px;
 }
 
-.project-body h3,
-.pub-content h3 {
+.project-body h3 {
   margin-bottom: 10px;
   font-size: 1.85rem;
   font-weight: 300;
   line-height: 1.2;
+}
+
+.pub-content h3 {
+  margin-bottom: 10px;
+  font-size: 1.55rem;
+  font-weight: 300;
+  line-height: 1.25;
 }
 
 .project-body p,
@@ -555,8 +561,8 @@ img {
   .hero h1 { font-size: 3.8rem; }
   .subtitle { font-size: 1.15rem; }
   .section-header h2 { font-size: 2.35rem; }
-  .project-body h3,
-  .pub-content h3 { font-size: 1.55rem; }
+  .project-body h3 { font-size: 1.55rem; }
+  .pub-content h3 { font-size: 1.35rem; }
 }
 
 .pub-actions span.action {
