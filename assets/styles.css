@@ -204,6 +204,11 @@ img {
   gap: 10px;
 }
 
+.socials .cv-label {
+  font-size: 13px;
+  font-weight: 500;
+}
+
 .socials a,
 .theme-toggle,
 .action {
